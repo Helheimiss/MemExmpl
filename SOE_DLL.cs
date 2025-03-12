@@ -5,7 +5,7 @@ namespace MemExmpl
     internal class SOE_DLL
     {
         // for int
-        [DllImport("SimpleOffsetExplorer.dll", CallingConvention = CallingConvention.Cdecl)]
+        [DllImport("SimpleOffsetExplorerX64.dll", CallingConvention = CallingConvention.Cdecl)]
         public static extern bool ReadMemEx(
             string processName,
             string moduleName,
@@ -16,7 +16,7 @@ namespace MemExmpl
         );
 
 
-        [DllImport("SimpleOffsetExplorer.dll", CallingConvention = CallingConvention.Cdecl)]
+        [DllImport("SimpleOffsetExplorerX64.dll", CallingConvention = CallingConvention.Cdecl)]
         public static extern bool WriteMemEx(
             string processName,
             string moduleName,
@@ -28,7 +28,7 @@ namespace MemExmpl
 
 
         // for float
-        [DllImport("SimpleOffsetExplorer.dll", CallingConvention = CallingConvention.Cdecl)]
+        [DllImport("SimpleOffsetExplorerX64.dll", CallingConvention = CallingConvention.Cdecl)]
         public static extern bool ReadMemEx(
             string processName,
             string moduleName,
@@ -39,7 +39,7 @@ namespace MemExmpl
         );
 
 
-        [DllImport("SimpleOffsetExplorer.dll", CallingConvention = CallingConvention.Cdecl)]
+        [DllImport("SimpleOffsetExplorerX64.dll", CallingConvention = CallingConvention.Cdecl)]
         public static extern bool WriteMemEx(
             string processName,
             string moduleName,
